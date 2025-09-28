@@ -99,7 +99,7 @@
 
 # Azure Storage Redundancy Options
 Azure provides multiple redundancy options to ensure data durability and high availability, protecting against hardware failures, data center outages, and regional disasters.
-- **Locally Redundant Storage (LRS)**: Replicates data three times within a single data center in a region. Protects against local hardware failures.
+- **Locally Redundant Storage (LRS)**: Replicates data three times within a single data center in a region. Protects against local hardware failures.(cheapest option) 
 - **Zone-Redundant Storage (ZRS)**: Replicates data synchronously across three Azure availability zones in a region. Protects against data center failures within a region.
 - **Geo-Redundant Storage (GRS)**: Replicates data to a secondary region hundreds of miles away from the primary region, in addition to local replication. Provides disaster recovery in case of regional outages.
 - **Read-Access Geo-Redundant Storage (RA-GRS)**: Same as GRS, but also allows read access to the data in the secondary region.
